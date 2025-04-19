@@ -1,6 +1,4 @@
-# Disease Prediction System
-
-A web application that uses machine learning to predict diseases based on patient symptoms. Built with Streamlit and a Multinomial Naive Bayes model.
+# CS7180 Final Project
 
 ## Features
 
@@ -13,28 +11,31 @@ A web application that uses machine learning to predict diseases based on patien
 ## Quick Start
 
 1. Clone this repository:
+
    ```bash
-   git clone <repository-url>
-   cd disease-prediction-app
+   git clone
    ```
 
 2. Create and activate a virtual environment:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. Run the application:
+
    ```bash
    streamlit run app.py
    ```
 
-5. Open your browser at `http://localhost:8501`
+5. Open your browser at `http://localhost:8502`
 
 ## How It Works
 
@@ -47,7 +48,6 @@ A web application that uses machine learning to predict diseases based on patien
 ## Project Structure
 
 - `app.py`: Main Streamlit application
-- `logo.py`: Module for generating the medical logo
 - `requirements.txt`: List of dependencies
 - `disease_prediction_multinomial_naive_bayes.joblib`: Trained model file
 - `model_features.csv`: List of symptoms the model was trained on
@@ -58,15 +58,6 @@ A web application that uses machine learning to predict diseases based on patien
 - **Features**: 300+ symptom indicators
 - **Interface**: Streamlit web application
 - **Data Preprocessing**: Binary encoding of symptoms
-
-## Requirements
-
-- Python 3.8+
-- Streamlit
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
 
 ## For Developers
 
