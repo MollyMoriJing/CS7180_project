@@ -23,6 +23,13 @@
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
+   alternatively, you can use `conda` to create an environment:
+
+   ```bash
+   conda create -n disease_prediction
+   conda activate disease_prediction
+   ```
+
 3. Install dependencies:
 
    ```bash
