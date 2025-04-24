@@ -58,6 +58,8 @@
    docker run -d -p 8501:8501 --name disease_prediction_app disease_prediction_app:latest
    ```
 
+3. Open your browser at `http://localhost:8501`
+
 ## How It Works
 
 1. The app loads a pre-trained Multinomial Naive Bayes model
