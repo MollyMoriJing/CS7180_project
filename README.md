@@ -42,7 +42,21 @@
    streamlit run app.py
    ```
 
-5. Open your browser at `http://localhost:8502`
+5. Open your browser at `http://localhost:8501`
+
+
+## Docker Setup
+1. Build the Docker image:
+
+   ```bash
+   docker build -t disease_prediction_app .
+   ```
+
+2. Run the Docker container:
+
+   ```bash
+   docker run -d -p 8501:8501 --name disease_prediction_app disease_prediction_app:latest
+   ```
 
 ## How It Works
 
